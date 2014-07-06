@@ -15,7 +15,10 @@ touch filydoc/tmp/smarty/config/.empty
 touch filydoc/tmp/smarty/templates_c/.empty
 chmod -R 777 filydoc/tmp
 
-tar czvf public_html/filydoc-1.0.1.tgz filydoc
-zip -r public_html/filydoc-1.0.1.zip filydoc
+# replace meta values
+sed -i -e "s/Copyright\:.*/Copyright: Copyright 2014 Who -->/" "filydoc/data/index.md"
+
+tar czvf public_html/filydoc-1.0.3.tgz filydoc
+zip -r public_html/filydoc-1.0.3.zip filydoc
 
 rm -rf filydoc
