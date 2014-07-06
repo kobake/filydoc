@@ -6,9 +6,10 @@ Simple file document system
 Filydoc is a simple file document system as a web site.
 All you have to do for using is as follows.
 
-1. Download Filydoc
-2. Editing .md files
-3. Upload Filydoc to web server
+1. Download Filydoc archive from http://filydoc.net/ .
+2. Edit .md files in data folder.
+3. Upload Filydoc to web server.
+4. Set 777 writable permission to filydoc/tmp folder recursively.
 
 
 Requirements
