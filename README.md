@@ -1,7 +1,35 @@
-filydoc.net
-===========
+Filydoc
+=======
 
-Web source of [http://filydoc.net/](http://filydoc.net/)
+Simple file document system
+-----------------------
+Filydoc is a simple file document system as a web site.
+All you have to do for using is as follows.
+
+1. Download Filydoc
+2. Editing .md files
+3. Upload Filydoc to web server
+
+
+Requirements
+------------
+- Apache
+- PHP 5.4 or later.
+
+
+Usage and demo
+--------------
+- [http://filydoc.net/](http://filydoc.net/)
+
+
+Thanks
+------
+- [http://daringfireball.net/projects/markdown/](Daring Fireball: Markdown)
+- [https://github.com/michelf/php-markdown](michelf/php-markdown)
+- [http://www.smarty.net/](PHP Template Engine | Smarty)
+- [http://jquery.com/](jQuery)
+- [https://angularjs.org/](AngularJS — Superheroic JavaScript MVW Framework)
+- [http://www.freefavicon.com/freefavicons/](Free Favicon) (Electron)
 
 
 License
