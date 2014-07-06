@@ -1,0 +1,51 @@
+DirectoryIndex index.php index.cgi index.htm index.html 403.html
+<Files 403.html>
+	deny from all
+</Files>
+<Files *.sql>
+	deny from all
+</Files>
+<Files *.md>
+	deny from all
+</Files>
+
+# [QSA]は、「Query String Append」の略で、%{QUERY_STRING}を引数としてつけたいときに使うフラグである。
+# [L]フラグは、Rewrite機能の変換を打ち切ること指示するものである。
+<IfModule mod_rewrite.c>
+	# DirectorySlash Off
+	RewriteEngine On
+
+	# 画像はそのまま
+	RewriteRule \.png$ - [L]
+	RewriteRule \.gif$ - [L]
+	RewriteRule \.jpg$ - [L]
+	RewriteRule \.jpeg$ - [L]
+
+	# JS,CSSはそのまま
+	RewriteRule \.css$ - [L]
+	RewriteRule \.js$ - [L]
+
+	# アーカイブはそのまま
+	RewriteRule \.tgz$ - [L]
+	RewriteRule \.tar\.gz$ - [L]
+	RewriteRule \.zip$ - [L]
+
+	# 後ろが / で終わる場合には / を削る
+	# RewriteCond %{REQUEST_FILENAME} /$
+	# RewriteRule ^(.*)/$ /$1 [R=301,L]
+
+	# 何もない場合は
+	# RewriteCond %{REQUEST_FILENAME} ^$
+	# RewriteRule ^(.*)$ hogehoge [R=301,L]
+	# DirectorySlash On
+
+	# *.html の指定の場合には
+	RewriteCond %{REQUEST_FILENAME} .html$
+	# ルールを適用する
+	RewriteRule ^(.*)$ index.php [QSA,L]
+
+	# 常に
+	RewriteCond %{REQUEST_FILENAME} .
+	# ルールを適用する (フレームレイアウト)
+	RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>

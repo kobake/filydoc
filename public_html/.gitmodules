@@ -1,0 +1,3 @@
+[submodule "filydoc-core"]
+	path = filydoc-core
+	url = git@github.com:kobake/filydoc-core.git

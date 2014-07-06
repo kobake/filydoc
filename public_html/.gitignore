@@ -1,0 +1,5 @@
+/tmp/smarty/*/*.tpl.php
+/tmp/log/*.log
+/tmp/*.serialized
+
+
