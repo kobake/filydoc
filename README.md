@@ -23,6 +23,11 @@ Usage and demo
 - [http://filydoc.net/](http://filydoc.net/)
 
 
+Use case
+--------
+- [clock-up-memo](http://memo.clock-up.jp/)
+
+
 Thanks
 ------
 - [http://daringfireball.net/projects/markdown/](Daring Fireball: Markdown)
