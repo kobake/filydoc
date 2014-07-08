@@ -19,7 +19,7 @@ chmod -R 777 filydoc/tmp
 sed -i -e "s/Copyright\:.*/Copyright: Copyright 2014 Who -->/" "filydoc/data/index.md"
 sed -i -e "s/GA\:.*/GA: -->/" "filydoc/data/index.md"
 
-tar czvf public_html/filydoc-1.0.3.tgz filydoc
-zip -r public_html/filydoc-1.0.3.zip filydoc
+tar czvf public_html/filydoc-1.0.4.tgz filydoc
+zip -r public_html/filydoc-1.0.4.zip filydoc
 
 rm -rf filydoc

@@ -30,8 +30,8 @@ Use case
 
 History
 -------
-- 2014.07.08 Transoforming by MarkdownExtra instead of Markdown
-- 2014.07.07 Released 1.0.0, 1.0,1, 1.0.2
+- 2014.07.08 ver1.0.4 Transoforming by MarkdownExtra instead of Markdown.
+- 2014.07.07 ver1.0.3 Released.
 
 Thanks
 ------

@@ -1,8 +1,8 @@
 ## Download
 Get an archive and extract it.
 
-- <a href="/filydoc-1.0.3.tgz" target="_top">filydoc-1.0.3.tgz</a>
-- <a href="/filydoc-1.0.3.zip" target="_top">filydoc-1.0.3.zip</a>
+- <a href="/filydoc-1.0.4.tgz" target="_top">filydoc-1.0.4.tgz</a>
+- <a href="/filydoc-1.0.4.zip" target="_top">filydoc-1.0.4.zip</a>
 
 
 ## Edit markdown
