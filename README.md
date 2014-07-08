@@ -28,6 +28,11 @@ Use case
 - [clock-up-memo](http://memo.clock-up.jp/)
 
 
+History
+-------
+- 2014.07.08 Transoforming by MarkdownExtra instead of Markdown
+- 2014.07.07 Released 1.0.0, 1.0,1, 1.0.2
+
 Thanks
 ------
 - [http://daringfireball.net/projects/markdown/](Daring Fireball: Markdown)
