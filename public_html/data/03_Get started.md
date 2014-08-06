@@ -14,6 +14,8 @@ Filydoc supports markdown text format.
 ### Content files
 **filydoc/data/&#x2a;..&#x2a;/*.md** files are there, and you can edit them for contents.
 
+<em>**Notice:** Character encoding of .md files should be UTF-8.</em>
+
 ### Meta values
 Edit **filydoc/data/index.md** to define special values as follows.
 
