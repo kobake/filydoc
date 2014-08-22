@@ -1,6 +1,3 @@
-Filydoc
-=======
-
 Simple file document system
 -----------------------
 Filydoc is a simple file document system as a web site.
