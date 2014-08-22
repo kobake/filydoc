@@ -5,6 +5,12 @@ DirectoryIndex index.php index.cgi index.htm index.html 403.html
 <Files *.sql>
 	deny from all
 </Files>
+<Files *.db>
+	deny from all
+</Files>
+<Files *.serialized>
+	deny from all
+</Files>
 
 # [QSA]は、「Query String Append」の略で、%{QUERY_STRING}を引数としてつけたいときに使うフラグである。
 # [L]フラグは、Rewrite機能の変換を打ち切ること指示するものである。
@@ -30,8 +36,9 @@ DirectoryIndex index.php index.cgi index.htm index.html 403.html
 	# PHPもそのまま (実験)
 	# RewriteRule \.php$ - [L]
 
-	# mdはindex.phpで読む (URLが加工されているため、素直にファイル取得ができない)
-	RewriteRule \.md$ index.php [QSA,L]
+	# *.xml, robots.txt は index.php で処理
+	RewriteRule \.xml$ index.php [QSA,L]
+	RewriteRule robots\.txt$ index.php [QSA,L]
 
 	# 後ろが / で終わる場合には / を削る
 	# RewriteCond %{REQUEST_FILENAME} /$
