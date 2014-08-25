@@ -16,6 +16,7 @@ All you have to do for using is as follows.
 ### Supported content file types
 - .md
 - .java
+- .php
 
 
 Requirements
@@ -38,6 +39,7 @@ History
 -------
 - Current
 	- .java file format support.
+	- .php file format support.
 	- GitHub login for editing contents.
 	- Show title of links automatically.
 - 2014.07.08 ver1.0.4
