@@ -3,6 +3,6 @@
 kobake, in Japan.
 
 - https://github.com/kobake
-- https://twitter.com/kobayan_tokyo
+- [@kobayan_tokyo](https://twitter.com/kobayan_tokyo)
 - http://clock-up.jp/
 - kobake@users.sourceforge.net
